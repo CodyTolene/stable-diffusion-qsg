@@ -1,0 +1,18 @@
+# Exclude everything
+*
+
+# Except these files and folders
+!.github/
+!.github/**
+!/.gitignore
+!/LICENSE.md
+!/README.md
+!/run.bat
+
+# Handle src separately
+!src/
+!src/.gitkeep
+!src/py/
+!src/py/.gitkeep
+!src/ui/
+!src/ui/.gitkeep
